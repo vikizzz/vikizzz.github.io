@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--This is name of the website-->
+		<title> Jiayi Zhao </title>	
+		<script type="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<link href = "style.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<!--this is the link of each section on the top of the page-->
+		<nav id = "top">
+    	<span class = "menu"><a href="#home">Home</a></span>
+    	<span class = "menu"><a href="#about">About</a></span>
+   		<span class = "menu"><a href="#resume">Resume</a></span>
+   		</nav>
+
+    	<!-- Home section-->
+    	<section id="home">
+    		<div>
+    		<center> <img id ="profilepic" src = "/Users/vikizhao/Downloads/viki.jpg" alt="Jiayi's Profile Picture" width = 180px> 
+    		<h1>Jiayi (Viki) Zhao</h1>
+    		</center>
+    		</div>
+    	</section>
+
+		<!-- About section-->
+    	<section id="about" style="display:flex">
+    		<div class="more float">
+    		<p> Hello! This is Jiayi Zhao, a sophomore students at University of California, San Diego. I major in Mathematics-Computer Sciences and minor in Cognitive Science. <br>
+    		I have studied in US since 2016. My dream is to get a stable job and have a CAT. <br>
+    		Feel free to email me if you want to get a connection.
+    		</p>
+    		</div>
+    		<div class = "less">
+    		<a href = "http://linkedin.com/in/JiayiZhao-Viki/"><img src="https://icons-for-free.com/iconfiles/png/512/linkedin+logo+logo+website+icon-1320190502911715717.png" width=50px></a><br>
+    		<a href = "mailto:vikizjy@gmail.com"> <img src="https://1000logos.net/wp-content/uploads/2018/05/Gmail-logo.png" width=50px></a><br>
+    		<a href="https://github.com/vikizzz"><img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" width=40px></a></div>
+    		</div>
+    	</section>
+
+    	<!-- Resume section-->
+    	<section id="resume">
+
+    	<div class="container">
+    		<div class="less float">
+    			<h3 ><span class="name"> Education </span></h3>
+    		</div>
+    		<div class = "more">
+    			<h2>University of California, San Diego</h2>
+    			<p> <i>BS Degree in Mathematics-Computer Sciences • Expected Graduation: March 2023<br>
+    			Major: Mathematics – Computer Sciences • Minor: Cognitive Science <br>
+    			GPA: 3.78 </i> <br> <br>
+    			Relevant Coursework:
+				<ur>
+					<li>Multivariable and Vector Calculus</li>
+					<li>Applied Modern Algebra</li>
+					<li>Intro to Probability</li>
+					<li>Enumerative Combinatorics</li>
+					<li>Numerical Linear Algebra (MATLAB)</li>
+					<li>Data Structures and Algorithms (Java, C, C++)</li>
+					<li>Computer Organization & Systems Programming (C++, Assembly)</li>
+					<li>Theory of Computability</li>
+    				<li>Data Science in Practice (Python)</li>
+    			</ur>
+    			</p> 
+    		</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="less float">
+    			<h3 ><span class="name"> Skills </span></h3>
+    		</div>
+
+    		<div class = "more">
+    			<p>Professional Skills:<ul>
+    			<li>Problem Analysis and Solving</li>
+    			<li>Team work</li>
+    			<li>Detailed-oriented</li>
+    			</ul></p>
+    			<p>Languages: <ul>
+    			<li>English (Fluent)</li>
+    			<li>Mandarin (Native)</li>
+    			<li>Cantonese (Familiar)</li>
+				</ul></p>
+    			<p>Programming Languages:<ul>
+    			<li>HTML/CSS/JavaScript (Familiar)</li>
+    			<li>C (Familiar)</li>
+    			<li>Java (Proficient)</li>
+    			<li>Python (Proficient)</li>
+    			<li>C++ (Excellent)</li>
+    			</ul>
+    			</p>
+    		</div>
+    	</div>
+
+    	<div class="container">
+    		<div class="less float">
+    			<h3 ><span class="name"> Experiences </span></h3>
+    		</div>
+
+    		<div class = "more">
+    			<h2>Triple C (Chinese Computer Community)</h2>
+    			<p><i>HR Officer & Software Developer  • 2020-Present</i></p>
+    			<li>Attending educational progran that improves HTML/CSS/JavaScript skill</li>
+    			<li>One of the Human Resources officer that assist in application review and performance appraisal</li>
+
+    			<h2>Chinese Union</h2>
+    			<p><i>Officer • 2019-2020</i></p>
+    			<li>Planner of THE VOICE OF CHINESE UNION event</li>
+    			<li>Abstracted 200+ people to attend</li>
+
+    			<h2>Chinese Sunday Church School Volunteering</h2>
+    			<p><i>Tutor • 2017-2019</i></p>
+    			<li>Promoted weekly engagments for American-born-Chinese children to understand Chinese culture</li>
+    			<li>Assited and prepared class materials, and provided class management</li>
+
+    			<h2>Academic Assistant</h2>
+    			<p><i>Math Tutor • 2017-2018</i></p>
+    			<li>Developed work plan for precalculus student</li>
+    			<li>Due to my tutoring, the students experienced significant grade improvment</li>
+
+    		</div>
+    	</div>
+    	</section>
+
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+			var stickyNavTop = $('#top').offset().top;
+			$(document).on('scroll',function(){
+   				if ($(document).scrollTop() > stickyNavTop) {
+       				$('top').addClass('fixed')
+   				} else {
+       				$('top').removeClass('fixed')
+   				}
+
+			});
+		</script>
+
+	</body>
+</html> 

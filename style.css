@@ -3,31 +3,48 @@ body {
 	line-height: 1.6;
 }
 
-nav{
+ul{
 	width: 100%;
-	display: block;
-	top:0;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	top:0;
 	left:0;
-	text-align: center;
+  	overflow: hidden;
 	background-color: #F2D7D5;
 	position:fixed;
 	z-index:9999;
 }
 
-span.menu {
-	display: inline-block;
-	position : relative;
-	padding: 8px 13px;
-    line-height: 32px;
-	font: 20px 'opensans-bold', sans-serif;
-    letter-spacing: 2 px;
+.menu {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 7px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+.menu:hover {
+  background-color: lavender;
+}
+
+.page{
+	text-align: center;
+	float:left;
+	font-size:25px;
+	padding: 5px 16px;
+	display: block;
+	text-decoration: none;
+
 }
 
 section {
 	position: relative;
-	padding-top: 20px;
+	padding-top: 45px;
     overflow: hidden;
-    border-bottom: 1px solid #95A5A6;
+    border-top: 1px solid #95A5A6;
 }
 
 p {
@@ -66,8 +83,17 @@ div{
 	float: left;
 }
 
+.full{
+	height:100vh;
+}
+
 .container{
 	display:flex;
 	border-radius: 25px;
 	border: 1px solid #F2D7D5;
+}
+
+.copy{
+	text-align: center;
+ß	font-size: 15px;
 }

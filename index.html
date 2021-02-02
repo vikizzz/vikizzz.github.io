@@ -9,23 +9,23 @@
 
 	<body>
 		<!--this is the link of each section on the top of the page-->
-		<nav id = "top">
-    	<span class = "menu"><a href="#home">Home</a></span>
-    	<span class = "menu"><a href="#about">About Me</a></span>
-   		<span class = "menu"><a href="#resume">Resume</a></span>
-   		</nav>
+		<ul id = "top">
+		<li class="page"><b>Jiayi's Page</b></li>
+   		<li class = "menu"><a href="#resume">Resume</a></li>
+        <li class = "menu"><a href="#about">About Me</a></li>
+        <li class = "menu"><a href="#home">Home</a></li>
+   		</ul>
 
     	<!-- Home section-->
-    	<section id="home" style="height: 100vh">
-    		<div>
-    		<center> <img src = "Viki.jpg" alt="Jiayi's Profile Picture" width = 180px> 
-    		<h1>Jiayi (Viki) Zhao</h1>
+    	<section id="home">
+    		<center> 
+                <img src = "Viki.jpg" alt="Jiayi's Profile Picture" width = 180px> 
+    		    <h1>Jiayi (Viki) Zhao</h1>
     		</center>
-    		</div>
     	</section>
 
 		<!-- About section-->
-    	<section id="about" style="display:flex height: 100vh">
+    	<section id="about" style="display:flex">
     		<div class="more float">
     		<p> Hi! This is Jiayi Zhao, a current sophomore student at University of California, San Diego. I major in Mathematics-Computer Sciences and minor in Cognitive Science. <br>
     		I have studied in US since 2016. I like doing Yoga and going to Karaoke in my free time. My goal is to get rich and have a <b>CAT</b>!!! <br>
@@ -36,7 +36,7 @@
     		<a href = "http://linkedin.com/in/JiayiZhao-Viki/"><img src="https://icons-for-free.com/iconfiles/png/512/linkedin+logo+logo+website+icon-1320190502911715717.png" width=50px></a><br>
     		<a href = "mailto:vikizjy@gmail.com"> <img src="https://1000logos.net/wp-content/uploads/2018/05/Gmail-logo.png" width=50px></a><br>
     		<a href="https://github.com/vikizzz"><img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" width=40px></a></div>
-    		</div>
+    		</div> 
     	</section>
 
     	<!-- Resume section-->
@@ -51,8 +51,7 @@
     			<p> <i>BS Degree in Mathematics-Computer Sciences • Expected Graduation: March 2023<br>
     			Major: Mathematics – Computer Sciences • Minor: Cognitive Science <br>
     			GPA: 3.78 </i> <br> <br>
-    			Relevant Coursework:
-				<ur>
+    			Relevant Coursework:</p> 
 					<li>Multivariable and Vector Calculus</li>
 					<li>Applied Modern Algebra</li>
 					<li>Intro to Probability</li>
@@ -62,8 +61,6 @@
 					<li>Computer Organization & Systems Programming (C++, Assembly)</li>
 					<li>Theory of Computability</li>
     				<li>Data Science in Practice (Python)</li>
-    			</ur>
-    			</p> 
     		</div>
     	</div>
 
@@ -73,24 +70,21 @@
     		</div>
 
     		<div class = "more">
-    			<p>Professional Skills:<ul>
+    			<p>Professional Skills:</p>
     			<li>Problem Analysis and Solving</li>
     			<li>Team work</li>
     			<li>Detailed-oriented</li>
-    			</ul></p>
-    			<p>Languages: <ul>
+    			<p>Languages: </p>
     			<li>English (Fluent)</li>
     			<li>Mandarin (Native)</li>
     			<li>Cantonese (Familiar)</li>
-				</ul></p>
-    			<p>Programming Languages:<ul>
+    			<p>Programming Languages:</p>
     			<li>HTML/CSS/JavaScript (Familiar)</li>
     			<li>C (Familiar)</li>
     			<li>Java (Proficient)</li>
     			<li>Python (Proficient)</li>
     			<li>C++ (Excellent)</li>
-    			</ul>
-    			</p>
+    			
     		</div>
     	</div>
 
@@ -123,6 +117,10 @@
     		</div>
     	</div>
     	</section>
+
+        <section id="copy" style="background-color: lightgrey">
+            <p class="copy">&#169; Copyright 2020 Jiayi (Viki) Zhao</p>
+        </section>
 
     	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script>

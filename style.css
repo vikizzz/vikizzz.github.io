@@ -1,8 +1,10 @@
+/* general style*/
 body {
 	background-color: #F5EEF8;
 	line-height: 1.6;
 }
 
+/* navigation bar*/
 ul{
 	width: 100%;
 	list-style-type: none;
@@ -14,6 +16,11 @@ ul{
 	background-color: #F2D7D5;
 	position:fixed;
 	z-index:9999;
+}
+
+li a{
+	text-decoration: none;
+	color: black;
 }
 
 .menu {
@@ -40,6 +47,7 @@ ul{
 
 }
 
+/* section style */
 section {
 	position: relative;
 	padding-top: 45px;
@@ -47,22 +55,9 @@ section {
     border-top: 1px solid #95A5A6;
 }
 
-p {
-	font-size:20px;
-}
-
-
+/* division */
 div{
 	padding: 20px;
-}
-
-.top {
-	position: fixed;
-}
-
-.name{
-	border-bottom: 3px solid #11ABB0;
-    padding-bottom: 6px;
 }
 
 .more{
@@ -83,17 +78,34 @@ div{
 	float: left;
 }
 
-.full{
-	height:100vh;
-}
-
 .container{
 	display:flex;
 	border-radius: 25px;
 	border: 1px solid #F2D7D5;
 }
 
+
+/* span */
+.name{
+	border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+}
+
+/* paragraph */
+p {
+	font-size:20px;
+}
+
 .copy{
 	text-align: center;
-ß	font-size: 15px;
+	font-size: 15px;
+	background-color: lightgrey;
 }
+
+.full{
+	height:100vh;
+}
+
+
+
+

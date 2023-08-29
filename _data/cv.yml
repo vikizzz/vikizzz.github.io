@@ -2,96 +2,125 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jiayi Zhao
+    - name: Preferred Name
+      value: Viki Zhao
     - name: Languages
-      value: English, German
+      value: English, Chinese
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. Business Analytics (MSBA)
+      institution: University of California, Los Angeles
+      year: 2023-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Courses: Business Fundamentals, Optimization, Prescriptive Models, Customer Analytics, Operations Analytics, Competitive Analytics"
+    - title: "B.S. Mathematics - Computer Sciences |\n B.S. Cognitive Science spec. Machine Learning and Neural Computation"
+      institution: University of California, San Diego
+      year: 2019-2023
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.82/4.0"
+        - "Cousres: Advanced Data Structure (CSE 100), Design and Analysis of Algorithms (CSE101), Business Analytics (MGT 153), Machine Learning (COGS 118A&B)"
 
-- title: Experience
+- title: Technical Skills
+  type: nested_list
+  contents:
+  - title: Programming Languages
+    items: 
+      - Python
+      - R
+      - HTML/CSS/JavaScript
+      - Java
+      - C++
+      - SQL
+  - title: Frameworks & Tools
+    items: 
+      - Git
+      - AWS
+      - LaTeX
+      - Excel
+      - MATLAB
+      - Visual Code Studio
+      - Tableau
+      - Twitter developer platform
+
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Design Engineer Intern
+      institution: MULTUS MANAGEMENT GROUP LLC
+      year: 07/2023 - 09/2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Constructed automation system to scrap and synchronize reservation data from Airbnb with AWS & Airtable, reducing time spent on property management by 90%
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Implemented a script using Selenium to store most recent reservation data to DynamoDB and backup to S3
+            - Optimized performance of scraping scripts on EC2 using Lambda functions
+            - Integrated Airtable with AWS through Gateway API to pull latest data from a DynamoDB database
+    - title: Undergrad Research Assistant
+      institution: FLEISCHER RESEARCH LAB @ UC SAN DIEGO
+      year: 06/2022 - 09/2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Conducted research in Analysis of Racial Equity in San Diego Criminal Justice System under Dr. Jason Fleischer
+        - Executed statistical tests with an outcome-based approach to determine racial disparity in charges, convictions and sentencing, revealing racial bias
+        - Examined relationship between homelessness-related police stops and specific geographic areas with geospatial analysis and Folium API, revealing distribution of stops appears to converge on bus stops and large homeless encampment in San Diego
+    - title: Instructional Apprenticeship (IA)
+      institution: UNIVERSITY OF CALIFORNIA, SAN DIEGO
+      year: 09/2021 - 03/2023
+      description: 
+        - I.A. for COGS108 - “Data Science in Practice” (Fall 2021, Winter 2022)
+        - I.A. for COGS118A - “Supervised Machine Learning Algorithms” (Winter 2023, Spring 2023)
+        - Held weekly office hour to assist students through the life cycle of executing Data Science projects, coding assignments, and computer science/data science concepts.
+        - Contributed to developing lesson plans, quizzes, homework assignments.
+    - title: Data & Research Intern
+      institution: HEY SOCIAL GOOD
+      year: 06/2021 - 07/2021
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Conducted research with Python and SpaCy on social impacts of corporations and evaluated for meeting social good requirements
+        - Analyzed social media of clients with Azure text analytics API and Twitter API to evaluate performance and social impact of clients
+        - Automated original humanoid actions and improved audit efficiency by 90%
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/vikizzz/online-shopping-intention-prediction">Online Shopping Intention Prediction</a>
+      year: 03/2022 - 06/2022
+      description: 
+       - Employed Logistic Regression, KNN, SVM, and Random Forest models to predict online shopper purchase intention from 12K+ observations with 17 shopping behavior patterns
+       - Random forest with 91% accuracy achieves the best performance for shopper purchase decision prediction among all used models
+    - title: <a href="https://github.com/cse110-fa21-group29/cse110-fa21-group29">Yummy Recipes</a>
+      year: 09/2021 - 12/2021
+      description: 
+       - Developed a web application project on healthy recipes for fitness and health enthusiasts
+       - Designed wireframes, UI/UX, and logo and implemented part of common component features
+    - title: <a href="https://github.com/COGS118B-character-classification/Chinese-MNIST">Classification of Handwritten Chinese Number Characters</a>
+      year: 09/2021 - 12/2021
+      description: 
+       - Constructed supervised and deep learning algorithms to classify handwritten Chinese number characters by Chinese MNIST dataset with 15K+ compressed images using Binary, Multilayer Perceptron, and CNN
+       - CNN with 89% accuracy achieves the best performance for image classification among all used algorithms
+    - title: <a href="https://github.com/vikizzz/Flashcard">Flashcard</a>
+      year: 06/2021
+      description: 
+       - Developed a self-learning tool with flashcards in Python which was inspired by Quizlet
+       - Helps people practice and master what they're learning
+    - title: <a href="https://github.com/vikizzz/Analysis-on-the-Scale-of-Wildfire-Incident-in-California">Analysis on the Scale of Wildfire Incident in California</a>
+      year: 01/2021 - 03/2021
+      description: 
+       - Examined the relationship between the scale of wildfire in California and global warming climate variables and tend to predict the future wildfire scale by these climate variables
+       - Analyzed the dataset and constructing a regression model for predicting future wildfire scale based on climate variables
+       - Concluded that there is the significant relationship between relative humidity and wildfire acres burned with a p-value of 0.007 but fail to reject that there's significant relationship between temperature, windspeed, and burning area due to the respective large p-value of 0.95 and 0.293
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Chancellor's Research Scholarship for Social Science
+        - Excellent Award in Research and Presentation at 2022 Summer Research Conference, UC San Diego Undergraduate Research Hub
+        - Provost Honors
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Watching TV shows, Music.

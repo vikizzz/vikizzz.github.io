@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am Jiayi Zhao (Viki). My Chinese name is 赵珈艺 (Jya-e J-OW). I am an incoming graduate student at the University of California, Los Angeles mastering in Business Analytics.
+Hello! I am Jiayi Zhao (Viki). My Chinese name is 赵珈艺 (Jya-e J-OW). I am a graduate student at the University of California, Los Angeles mastering in Business Analytics.
 
 Over the past academic years, I have been actively participating in several undergraduate course developments, including but not limited to designing and developing homework, programming assignment, project, and exams. I have an insatiable passion for helping my peers and students to succeed in their academic journey, especially in programming knowledge and experience.
 

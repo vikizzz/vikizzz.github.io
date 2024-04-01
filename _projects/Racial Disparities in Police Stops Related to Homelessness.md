@@ -5,7 +5,8 @@ description:  Provide initial insight into the racial disparities in the San Die
 img: assets/img/press_con.jpg
 importance: 1
 date: 2023-05-19 11:01:00 +0800
-category: Work
+category: Research
+github: https://github.com/FleischerResearchLab/CRJA-analysis
 ---
 ## Introduction
 California Governor Gavin Newsom signed several laws after taking office in 2019 to promote racial equality and justice, one among which is the California Racial Justice Act (AB 2542). The key point of the RJA is that it allows defendants to challenge their sentences or convictions by presenting statistical evidence showing that race was a significant factor in their case, potentially leading to a new trial, a reduction in sentence, or a reversal of conviction. The act also requires the state to collect and analyze data on the race and ethnicity of individuals involved in the criminal justice system to identify and address racial disparities, with the end goal of increasing fairness and equity within the system.
